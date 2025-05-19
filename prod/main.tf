@@ -3,6 +3,6 @@ module "lookup_data"{
   resource = "cloudaccounts"
 }
 
-output "everything" {
+output "prod_data" {
   value = module.lookup_data.resource_metadata
 }
