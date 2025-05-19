@@ -22,5 +22,9 @@ output "resource_metadata" {
 }
 
 output "item_count" {
-  value = local. result_count
+  value = local.result_count
+}
+
+output "parsed_body" {
+  value = local.parsed_body
 }
