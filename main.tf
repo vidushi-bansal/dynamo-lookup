@@ -11,5 +11,6 @@ resource "aws_dynamodb_table" "basic-dynamodb-table" {
   tags = {
     Name        = "lookup-table"
     Environment = "dev"
+    Managed-by = "Terraform"
   }
 }
