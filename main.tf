@@ -1,16 +1,16 @@
-resource "aws_dynamodb_table" "basic-dynamodb-table" {
-  name           = "GameScores"
+resource "aws_dynamodb_table" "cloudaccounts" {
+  name           = "cloudaccounts"
   billing_mode   = "PAY_PER_REQUEST"
-  hash_key       = "uid"
+  hash_key       = "account_id"
 
   attribute {
-    name = "uid"
+    name = "account_id"
     type = "S"
   }
 
   tags = {
-    Name        = "lookup-table"
-    Environment = "dev"
-    Managed-by = "Terraform"
+    Name        = "cloudaccounts"
+    Environment = "Dev"
+    Managed-by  = "Terraform"
   }
 }
