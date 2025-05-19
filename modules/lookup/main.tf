@@ -22,7 +22,7 @@ locals {
   query_params = merge (
     local.selected_context,
     var.extra_query_params,
-    {ddtable = local.ddtable }
+    { ddtable = local.ddtable }
   )
 
   encoded_params = [
