@@ -20,3 +20,7 @@ resource "null_resource" "validate" {
 output "resource_metadata" {
   value = local.selected
 }
+
+output "item_count" {
+  value = local. result_count
+}
