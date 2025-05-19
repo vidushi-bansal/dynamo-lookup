@@ -13,3 +13,7 @@ module "lookup_data"{
 output "parsed" {
   value = module.lookup_data.parsed_body
 }
+
+output "context_query_params_debug" {
+  value = module.lookup_data.context_query_params_debug
+}

@@ -28,3 +28,7 @@ output "item_count" {
 output "parsed_body" {
   value = local.parsed_body
 }
+
+output "context_query_params_debug" {
+  value = var.context_query_params
+}
