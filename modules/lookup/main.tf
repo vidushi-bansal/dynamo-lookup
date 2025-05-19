@@ -17,7 +17,7 @@ locals {
           if local.context_vars[k] != null
   }
 
-  ddtable = cloudaccounts
+  ddtable = "cloudaccounts"
 
   query_params = merge (
     local.selected_context,
