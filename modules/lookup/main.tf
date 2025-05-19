@@ -21,6 +21,7 @@ locals {
 
   query_params = merge (
     local.selected_context,
+    var.context_query_params,
     var.extra_query_params,
     { ddtable = local.ddtable }
   )

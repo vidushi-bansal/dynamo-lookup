@@ -1,9 +1,6 @@
 module "lookup_data"{
   source = "../modules/lookup"
   resource = "cloudaccounts"
-  extra_query_params = {
-    account_id = "12345"
-  }
 }
 
 output "everything" {
