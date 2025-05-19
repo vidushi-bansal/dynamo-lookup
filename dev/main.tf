@@ -6,6 +6,6 @@ module "lookup_data"{
   }
 }
 
-output "evverything" {
+output "everything" {
   value = module.lookup_data.resource_metadata
 }
