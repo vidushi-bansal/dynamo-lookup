@@ -1,3 +1,5 @@
 variable "context_query_params" {
-  default = {}
+  description = "All context variables from Spacelift to send as query params"
+  type        = map(string)
+  default     = {}
 }
