@@ -11,7 +11,8 @@ variable "context_query_params" {
   default     = {}
 }
 
-variable "test" {
+variable "namespace" {
   type = string
-  default = null
+  default = ""
 }
+
