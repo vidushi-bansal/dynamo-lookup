@@ -18,3 +18,7 @@ output "parsed" {
 output "context_query_params_debug" {
   value = module.lookup_data.context_query_params_debug
 }
+
+output "test" {
+  value = module.lookup_data.test
+}

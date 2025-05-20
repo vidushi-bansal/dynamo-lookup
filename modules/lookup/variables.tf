@@ -10,3 +10,8 @@ variable "context_query_params" {
   type        = map(string)
   default     = {}
 }
+
+variable "test" {
+  type = string
+  default = null
+}
