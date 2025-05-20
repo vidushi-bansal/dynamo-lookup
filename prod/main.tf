@@ -19,6 +19,8 @@ output "context_query_params_debug" {
   value = module.lookup_data.context_query_params_debug
 }
 
-output "test" {
-  value = module.lookup_data.namespace
+output "namespace" {
+  value = var.namespace
 }
+
+variable "namespace" {}

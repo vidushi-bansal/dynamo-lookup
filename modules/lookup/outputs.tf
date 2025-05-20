@@ -33,6 +33,3 @@ output "context_query_params_debug" {
   value = var.context_query_params
 }
 
-output "namespace" {
-  value = var.namespace
-}
