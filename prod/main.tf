@@ -11,9 +11,9 @@ module "lookup_data"{
 #   value = module.lookup_data.item_count
 # }
 
-output "parsed" {
-  value = module.lookup_data.parsed_body
-}
+# output "parsed" {
+#   value = module.lookup_data.parsed_body
+# }
 
 output "context_query_params_debug" {
   value = module.lookup_data.context_query_params_debug
