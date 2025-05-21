@@ -1,5 +1,5 @@
 locals {
-  api = "https://e0s7cbd9x4.execute-api.us-east-1.amazonaws.com/dev/items"
+  api = "https://5a459fii0b.execute-api.us-east-1.amazonaws.com/dev/items"
 
   context_vars = {
     region = data.aws_region.current.name
